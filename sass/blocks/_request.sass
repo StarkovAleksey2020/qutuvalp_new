@@ -1,0 +1,96 @@
+.request
+  width: 100%
+  min-height: 60vh
+  &-bg
+    &-scroll
+      height: 25vh
+      background-repeat: no-repeat
+      background-position: 50% 0%
+      display: flex
+      align-items: center
+      justify-content: center
+      color: #FFF
+      background: url(../img/pict_7.jpg) center/cover no-repeat fixed
+  &-text
+    &-block
+      height: 40vh
+      padding: 25px 35px
+      display: flex
+      flex-direction: column
+      justify-content: flex-start
+    &-title
+      font-size: 36px
+      text-align: start
+      margin-bottom: 20px
+    &-subtitle
+      font-size: 26px
+      text-align: start
+      margin-bottom: 20px
+    &-item
+      font-size: 18px
+      text-align: start
+      margin-bottom: 10px
+  &-table
+    &-row
+      display: flex
+    &-cell
+      display: flex
+      flex-direction: column
+      flex-wrap: wrap
+      margin: 10px
+      padding: 15px
+      background: #e3e3e3
+      border-radius: 4px
+      &:hover
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2)
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2)
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2)
+    &-image
+      width: 180px
+      &-arrow
+        width: 20px
+    &-upper
+      display: flex
+      justify-content: flex-end
+    &-title
+      font-size: 24px
+      &-block
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        width: 100%
+        min-height: 100px
+  &-contacts
+    display: flex
+    justify-content: space-around
+    background: #313131
+    &-block
+      width: 100%
+      height: 10vh
+      display: flex
+      flex-direction: column
+      padding: 35px 25px
+      justify-content: flex-start
+    &-item
+      color: #FFFFFF
+      margin-bottom: 16px
+  &-button
+    &-header
+      width: 285px
+      min-height: 50px
+      background-color: $primary
+      color: #ffffff
+      border-radius: 8px
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 20px
+      display: flex
+      align-items: center
+      text-align: center
+      justify-content: center
+      outline: none
+      cursor: pointer
+      border: none
+      &:hover
+        background-color: #3982c6
